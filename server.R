@@ -6,7 +6,7 @@ library(shiny)
 library(datasets)
 library(shinyhelper)
 
-# Define server logic required to summarize and view the selected dataset
+# Define server logic required to summarize and view the selected DataSet
 shinyServer(function(input, output) {
   
   observe_helpers(help_dir = "helpfiles")
