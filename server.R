@@ -19,7 +19,7 @@ shinyServer(function(input, output) {
            "cars" = cars)
   })
   
-  # Generate a summary of the dataset
+  # Generate a summary of the DataSet
   output$summary <- renderPrint({
     dataset <- datasetInput()
     summary(dataset)
