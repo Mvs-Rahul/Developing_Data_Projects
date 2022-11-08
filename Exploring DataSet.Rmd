@@ -1,0 +1,40 @@
+---
+title: "Developing Data Products Course Project"
+author: "Mvs Rahul"
+date: "08/11/2022"
+---
+
+## Introduction
+
+This presentation is the Course Project of the Developing Data Products Coursera course.
+
+It is an R Presentation generated with RStudio.
+
+The Shiny application is available at https://mvs-rahul.shinyapps.io/First-Project/?_ga=2.17515065.1801748649.1667891820-830743266.1667891820
+
+The Shiny app source code is available at https://github.com/Mvs-Rahul/Developing_Data_Projects
+
+
+## Overview
+
+- The application is written in Shiny, a web application framework for R.
+- The source code consists of two files: server.R and ui.R.
+- server.R includes the backend of a Shiny web application.
+- ui.R includes the the user-interface elements.
+- The application is hosted on Rstudio's shiny server.
+
+The application goal is to provide an interface to explorer some datasets. 
+
+After choose the dataset, the information such as mean and median and some observations are visible. You could also specify the number of observations.
+
+## Working of the App
+
+### Side Panel
+
+- Select the desired dataset
+- Change the number of desired observations
+
+### Main Panel
+
+- See the dataset summary
+- See the dataset table with some observations
