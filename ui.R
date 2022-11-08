@@ -1,4 +1,4 @@
-# This is the user-interface definition of a Shiny web application. You can run the application by clicking 'Run App' above.
+# This is the user interface code of the Shiny web application. You can run the application by clicking 'Run App' above.
 
 library(shiny)
 library(shinyhelper)
